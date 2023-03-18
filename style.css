@@ -1,0 +1,12 @@
+body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.container {
+    width: 1400px;
+    margin: 0px auto;
+}
+
+.menu-item {
+    display: inline-block;
+}
