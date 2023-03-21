@@ -6,9 +6,15 @@ body {
 
 
 header {
+    position: relative;
     height: 765px;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0.5) 100%), 
 url(resources/main-image.png);
+}
+
+.container {
+    margin: 0px auto;
+    width: 1400px;
 }
 
 .logo {
@@ -46,12 +52,16 @@ h1 {
     font-size: 80px;
     line-height: 70px;
     letter-spacing: -0.03em;
-    color: #1BFF07;
-
-
-    
+    color: #1BFF07; 
 }
 
+h2 {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+}
 .nav-link {
     margin-right: 50px;
     font-weight: 400;
@@ -63,7 +73,7 @@ h1 {
     color: #FFFFFF;
 }
 
-.developer-dscrtn {
+.developer-dscrptn {
     position: absolute;
     left: 125px;
     top: 334px;
@@ -74,3 +84,55 @@ h1 {
     line-height: 26px;
     letter-spacing: -0.03em;
 }
+
+.projects {
+    width: 1155px;
+    margin-top: 150px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
+
+.project-image {
+    position: relative;
+    height: 550px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), 
+    url(resources/project-realhome.png);
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.project-image:nth-last-child(2) {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), 
+    url(resources/project-glass.png);
+    border-radius: 30px;
+}
+
+.project-image:nth-last-child(1) {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), 
+    url(resources/project-fesiyen.png);
+    border-radius: 30px;
+}
+
+.project-title {
+    position: absolute;
+    bottom: 94px;
+    left: 50px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+}
+
+.project-dscrptn {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+}
+
+
